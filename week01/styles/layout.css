@@ -47,10 +47,12 @@ main .main-content {
     background-color: #ccc;
     justify-content: left;
     color: #000;
+    padding-top: 0.5rem;
 }
 
 main aside {
     grid-column: 2 / 3;
+    padding-top: 0.5rem;
 }
 
 main aside p {
@@ -66,4 +68,5 @@ footer {
 footer p {
     text-align: center;
     color: #fff;
+    padding-top: 0.5rem;
 }
