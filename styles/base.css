@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap');
+
 :root {
     --primary-color: #2C3E50;
     --secondary-color: #34495E;
@@ -11,6 +13,14 @@
     padding: 0px;
     font-family: 'calibri', 'arial';
 }
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 
 header h1 {
     font-family: 'Roboto', 'calibri';
