@@ -9,6 +9,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'calibri', 'arial';
 }
 
 header h1 {
@@ -17,6 +18,7 @@ header h1 {
     text-align: center;
     padding: 1rem;
     color: var(--text-color);
+    font-size: 3rem;
 }
 
 nav {
@@ -80,7 +82,7 @@ nav ul li a:hover {
     background-color: var(--primary-color);
     color: var(--text-color);
     background-clip: padding-box;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 1rem;
     font-family: 'Roboto', 'calibri';
     font-weight: bold;
@@ -106,21 +108,20 @@ nav ul li a:hover {
 }
 
 .card1-subtitle {
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
+    margin-left: 1rem;
 }
 
 .my-city {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 20px;
     padding: 1rem;
 }
 
 .city-img {
     width: 100px;
     margin-right: 1rem;
-    margin-left: 1rem;
 }
 
 .card2 {
@@ -137,7 +138,7 @@ nav ul li a:hover {
     background-color: var(--primary-color);
     color: var(--text-color);
     background-clip: padding-box;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 1rem;
     font-family: 'Roboto', 'calibri';
     font-weight: bold;
