@@ -1,0 +1,152 @@
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #34495E;
+    --background-color: #1C2833;
+    --text-color: #ECF0F1;
+    --accent-color: #E74C3C;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1 {
+    font-family: 'Roboto', 'calibri';
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    color: var(--text-color);
+}
+
+nav {
+    background-color: var(--background-color);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: 'Lora', 'Calibri';
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+
+}
+
+.card1,
+.card2 {
+    border: 2px solid var(--primary-color);
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card1 {
+    flex: 0 0 70%;
+    box-sizing: border-box;
+}
+
+.card2 {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+}
+
+.card1-title {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    background-clip: padding-box;
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: 'Roboto', 'calibri';
+    font-weight: bold;
+}
+
+.description {
+    width: 80%;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+}
+
+.about-me {
+    display: flex;
+    padding: 1rem;
+}
+
+.my-city {
+    display: flex;
+}
+
+.card1-subtitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.my-city {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.city-img {
+    width: 100px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.card2 {
+    text-align: center;
+}
+
+.resources {
+    display: inline-block;
+    text-align: left;
+}
+
+.card2-title {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    background-clip: padding-box;
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: 'Roboto', 'calibri';
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
