@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #ff5555;
+    --secondary-color: white;
+}
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -6,8 +11,8 @@
 
 body {
     font-family: "Roboto", "helvetica", "sans-serif";
-    background-color: white;
-    max-width:1080px;
+    background-color: var(--secondary-color);
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -26,7 +31,7 @@ header {
     display: block;
     text-align: center;
     padding: 1rem 0;
-    background-color: #ff5555;
+    background-color: var(--primary-color);
 
 }
 
@@ -50,7 +55,7 @@ section {
 section li {
     margin: 10px;
     list-style-type: none;
-    text-align:center;
+    text-align: center;
 }
 
 section img {
@@ -69,7 +74,6 @@ footer {
     align-items: center;
     margin: 0;
     max-height: 100vh;
-    background-color: #ff5555;
-
-    padding: 3%;
+    background-color: var(--primary-color);
+    padding: 0;
 }
