@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #8B4513; /* Brown */
+    --secondary-color: #F5F5DC; /* Beige */
+    --accent-color: #00008B; /* Dark Blue */
+    --background-color: #FFFDD0; /* Light Cream */
+    --text-color: #000000; /* Black */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header, footer {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+h1, h2, h3, p {
+    margin: 0.5rem 0;
+}
+
+.first-section p:last-child {
+    color: green;
+    font-size: small;
+}
+
+figure {
+    display: inline-block;
+}
+
+.typography {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 1rem;
+}
+
+.color-schema {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 1rem;
+}
+
+section + section{
+    margin-top: 10px;
+}
